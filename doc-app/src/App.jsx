@@ -1,7 +1,10 @@
 import "./App.css";
+import FileUpload from "./components/FileUpload/FileUpload";
 
 function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <FileUpload/>
+  )
 }
 
 export default App;
